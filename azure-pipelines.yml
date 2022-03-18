@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '1604ecf1-3896-4f87-af0f-8c4b89d31083'
+  dockerRegistryServiceConnection: '4982d5fc-1bbd-445d-ada4-bc1c404ed563'
   imageRepository: 'farenaslavpipelinesjavascriptdocker'
   containerRegistry: 'farenaslav.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
