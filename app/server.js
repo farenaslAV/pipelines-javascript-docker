@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello world after commit in GH that use ADO pipelines to deploy in Azure\n');
+  res.send('<h1>Hello world after commit in GH that use ADO pipelines to deploy in Azure</h1>\n');
 });
 
 app.listen(PORT, HOST);
